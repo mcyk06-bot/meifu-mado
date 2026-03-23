@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
   <title>冥府魔導</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #0a0005;
+    * { margin: 0; padding: 0; }
+    body { 
+      background: #000;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       overflow: hidden;
     }
-    canvas {
-      display: block;
-      max-height: 100vh;
-      max-width: 100vw;
-    }
+    canvas { display: block; }
   </style>
 </head>
 <body>
-  <script src="https://pixijs.download/release/pixi.min.js">
-  </script>
+
+  <!-- ↓ v7に固定 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.2/pixi.min.js"></script>
+  
   <script type="module" src="main.js"></script>
 </body>
 </html>
