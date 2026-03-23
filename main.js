@@ -14,13 +14,12 @@ const GAME_W = 390;
 const GAME_H = 844;
 
 const app = new PIXI.Application({
-  width:           GAME_W,
-  height:          GAME_H,
-  backgroundColor: 0x0a0005,
-  resolution:      window.devicePixelRatio || 1,
-  autoDensity:     true,
+  width: 800,
+  height: 600,
+  backgroundColor: 0x1a0a2e,
+  antialias: true
 });
-document.body.appendChild(app.view);
+document.body.appendChild(app.renderer.view);
 
 // ─────────────────────────────────────────
 // レイヤー
